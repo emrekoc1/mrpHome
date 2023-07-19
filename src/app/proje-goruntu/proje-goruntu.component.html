@@ -1,0 +1,18 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th></th>
+        <th *ngFor="let ay of aylar" scope="col">{{ ay }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let urunKod of urunKodlari">
+        <th scope="row">{{ urunKod }}</th>
+        <td *ngFor="let ay of aylar">
+          <span [ngStyle]="getStyle(urunKod, ay, 'hedef')">{{ getMiktar(urunKod, ay, 'hedef') }}</span>
+          <span [ngStyle]="getStyle(urunKod, ay, 'gercek')"> / {{ getMiktar(urunKod, ay, 'gercek') }}</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  

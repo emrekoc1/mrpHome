@@ -1,0 +1,23 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">MALZEME KODU</th>
+        <th scope="col">CARI</th>
+        <th scope="col">MALZEME AÇIKLAMASI</th>
+        <th scope="col">Toplam Sipariş Adedi</th>
+        <th scope="col">Toplam Açık Sipariş</th>
+        <th scope="col">Toplam Sevk Edilen Adet</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let siparis of siparisler">
+        <td>{{ siparis.MALZEME_KODU }}</td>
+        <td>{{ siparis.CARI }}</td>
+        <td>{{ siparis.MALZEME_ACIKLAMASI }}</td>
+        <td>{{ siparis['Toplam Sipariş Adedi'] }}</td>
+        <td>{{ siparis['Toplam Açık Sipariş'] }}</td>
+        <td>{{ siparis['Toplam Sevk Edilen Adet'] }}</td>
+      </tr>
+    </tbody>
+  </table>
+  
