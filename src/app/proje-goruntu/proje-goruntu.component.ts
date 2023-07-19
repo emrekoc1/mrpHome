@@ -6,10 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./proje-goruntu.component.scss']
 })
 export class ProjeGoruntuComponent {
+bom:any[]=[
+ 
+]
+
+
   data: any[] = [
     {
     "urunKod":"10100205-1",
-    "cari":"aselsan",
+    "cari":"aselsan","aciksiparis":4000,
     "ay":"TEMMUZ",
     "kontrolVar":true,
     "hedef":400,
@@ -17,7 +22,7 @@ export class ProjeGoruntuComponent {
     },
     {
         "urunKod":"10100205-1",
-        "cari":"aselsan",
+        "cari":"aselsan","aciksiparis":4000,
         "ay":"AĞUSTOS",
         "kontrolVar":true,
         "hedef":400,
@@ -27,7 +32,7 @@ export class ProjeGoruntuComponent {
     ,
     {
         "urunKod":"10100205-1",
-        "cari":"aselsan",
+        "cari":"aselsan","aciksiparis":4000,
         "ay":"EYLÜL",
         "kontrolVar":true,
         "hedef":400,
@@ -37,7 +42,7 @@ export class ProjeGoruntuComponent {
     ,
     {
         "urunKod":"10100205-1",
-        "cari":"aselsan",
+        "cari":"aselsan","aciksiparis":4000,
         "ay":"EKİM",
         "kontrolVar":true,
         "hedef":400,
@@ -47,7 +52,7 @@ export class ProjeGoruntuComponent {
     ,
     {
         "urunKod":"10100205-1",
-        "cari":"aselsan",
+        "cari":"aselsan","aciksiparis":4000,
         "ay":"KASIM",
         "hedef":400,
         "kontrolVar":true,
@@ -56,7 +61,7 @@ export class ProjeGoruntuComponent {
     },
     {
         "urunKod":"10100205-1",
-        "cari":"aselsan",
+        "cari":"aselsan","aciksiparis":4000,
         "ay":"ARALIK",
         "kontrolVar":true,
         "hedef":400,
@@ -65,7 +70,7 @@ export class ProjeGoruntuComponent {
     },
     {
         "urunKod":"10100205-2",
-        "cari":"aselsan",
+        "cari":"aselsan","aciksiparis":4000,
         "ay":"AĞUSTOS",
         "kontrolVar":true,
         "hedef":100,
@@ -74,7 +79,7 @@ export class ProjeGoruntuComponent {
     } ,
      {
         "urunKod":"10100205-2",
-        "cari":"aselsan",
+        "cari":"aselsan","aciksiparis":4000,
         "ay":"EYLÜL",
         "hedef":100,
         "kontrolVar":true,
@@ -82,7 +87,7 @@ export class ProjeGoruntuComponent {
     
     },  {
         "urunKod":"10100205-2",
-        "cari":"aselsan",
+        "cari":"aselsan","aciksiparis":4000,
         "ay":"EKİM",
         "kontrolVar":true,
         "hedef":100,
@@ -90,7 +95,7 @@ export class ProjeGoruntuComponent {
     
     },  {
         "urunKod":"10100205-2",
-        "cari":"aselsan",
+        "cari":"aselsan","aciksiparis":4000,
         "ay":"KASIM",
         "kontrolVar":true,
         "hedef":100,
@@ -98,7 +103,7 @@ export class ProjeGoruntuComponent {
     
     },  {
         "urunKod":"10100205-2",
-        "cari":"aselsan",
+        "cari":"aselsan","aciksiparis":4000,
         "ay":"ARALIK",
         "hedef":100,
         "kontrolVar":true,
@@ -106,7 +111,7 @@ export class ProjeGoruntuComponent {
     
     },  {
         "urunKod":"10100205-2",
-        "cari":"aselsan",
+        "cari":"aselsan","aciksiparis":4000,
         "ay":"TEMMUZ",
         "kontrolVar":true,
         "hedef":100,
@@ -114,7 +119,7 @@ export class ProjeGoruntuComponent {
     
     },  {
         "urunKod":"10119455-1",
-        "cari":"aselsan",
+        "cari":"aselsan","aciksiparis":4000,
         "ay":"AĞUSTOS",
         "kontrolVar":false,
         "hedef":100,
@@ -122,7 +127,7 @@ export class ProjeGoruntuComponent {
     
     },  {
         "urunKod":"10119455-1",
-        "cari":"aselsan",
+        "cari":"aselsan","aciksiparis":4000,
         "ay":"TEMMUZ",
         "kontrolVar":false,
         "hedef":100,
@@ -130,7 +135,7 @@ export class ProjeGoruntuComponent {
     
     },  {
         "urunKod":"10119455-1",
-        "cari":"aselsan",
+        "cari":"aselsan","aciksiparis":4000,
         "ay":"EYLÜL",
         "hedef":100,
         "kontrolVar":false,
@@ -139,7 +144,7 @@ export class ProjeGoruntuComponent {
     
     },  {
         "urunKod":"10119455-1",
-        "cari":"aselsan",
+        "cari":"aselsan","aciksiparis":4000,
         "ay":"EKİM",
         "hedef":100,
         "kontrolVar":false,
@@ -147,7 +152,7 @@ export class ProjeGoruntuComponent {
     
     },  {
         "urunKod":"10119455-1",
-        "cari":"aselsan",
+        "cari":"aselsan","aciksiparis":4000,
         "ay":"KASIM",
         "kontrolVar":true,
         "hedef":100,
@@ -155,7 +160,7 @@ export class ProjeGoruntuComponent {
     
     },  {
         "urunKod":"10119455-15",
-        "cari":"aselsan",
+        "cari":"aselsan","aciksiparis":4000,
         "ay":"AĞUSTOS",
         "kontrolVar":false,
         "hedef":1000,
@@ -163,7 +168,7 @@ export class ProjeGoruntuComponent {
     
     },  {
         "urunKod":"10119455-15",
-        "cari":"aselsan",
+        "cari":"aselsan","aciksiparis":4000,
         "ay":"KASIM",
         "kontrolVar":false,
         "hedef":1000,
@@ -171,7 +176,7 @@ export class ProjeGoruntuComponent {
     
     },  {
         "urunKod":"10119455-15",
-        "cari":"aselsan",
+        "cari":"aselsan","aciksiparis":4000,
         "ay":"ARALIK",
         "kontrolVar":false,
         "hedef":1000,
